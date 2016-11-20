@@ -114,7 +114,7 @@ Hexo 中有很多主题，可以在[官网](https://hexo.io/themes/)查看。
 
 ```
 $ cd theme/
-$ git clone git clone https://github.com/iissnan/hexo-theme-next themes/next
+$ git clone https://github.com/iissnan/hexo-theme-next themes/next
 ```
 
 ### 应用下载的主题
