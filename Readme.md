@@ -1,6 +1,6 @@
 # Hexo 博客搭建指南
 
-Hexo的简洁、神秘让我跃跃欲试，在使用过程中遇到了很多问题，整理此文，一是方便其他技术人搭建自己的博客，二是给自己的学习之旅做个总结。
+Hexo的简洁、神秘让我跃跃欲试，在使用过程中遇到了很多问题，整理此文，一是方便其他技术人搭建自己的博客，二是给自己的学习之旅做个总结。本文**未完结**，欢迎star、fork，如果有错误，请不吝指出。
 我搭建的博客地址：[**limedroid.github.io**](https://limedroid.github.io)
 ## Hexo介绍
 
@@ -85,11 +85,11 @@ $ hexo s
 
 ### 直接方式
 
-在 source/_posts/下新建一个.md文件也可
+在 **source/_posts/**下新建一个.md文件也可
 
 ## 配置
 
-网站的设置大部分都在_config.yml文件中，详细配置可以查看[官方文档](https://hexo.io/zh-cn/docs/configuration.html)
+网站的设置大部分都在**_config.yml**文件中，详细配置可以查看[官方文档](https://hexo.io/zh-cn/docs/configuration.html)
 
 下面只列出简单常用配置
 
@@ -119,7 +119,7 @@ $ git clone git clone https://github.com/iissnan/hexo-theme-next themes/next
 
 ### 应用下载的主题
 
-在网站配置文件_config.yml中，配置theme
+在网站配置文件**_config.yml**中，配置**theme**
 
 ```
 theme: next
