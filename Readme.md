@@ -3,8 +3,6 @@
 Hexo的简洁、神秘让我跃跃欲试，在使用过程中遇到了很多问题，整理此文，一是方便其他技术人搭建自己的博客，二是给自己的学习之旅做个总结。本文**未完结**，欢迎star、fork，如果有错误，请不吝指出。
 我搭建的博客地址：[**limedroid.github.io**](https://limedroid.github.io)
 
-[TOC]
-
 ## 1 Hexo介绍
 
 [Hexo](https://hexo.io/zh-cn/)是基于NodeJs的静态博客框架，简单、轻量，其生成的静态网页可以托管在Github和Heroku上。
