@@ -176,6 +176,66 @@ $ hexo d
 
 ## 8 贴标签，方便搜索
 
+### 8.1 两个确认
+
+* 确认站点配置文件有 
+```
+tag_dir: tags
+```
+* 确认主题配置文件有
+```
+tags: tags
+```
+
+### 8.2 新建tags页面
+
+```
+$ hexo new page tags
+```
+此时会在source/下生成tags/index.md文件
+
+### 8.3 修改source/tags/index.md
+
+```
+title: tags
+date: 2015-10-20 06:49:50
+type: "tags"
+comments: false
+```
+
+> date 可保持系统生成的时间，
+```
+type: "tags"
+comments: false
+```
+很重要
+
+### 8.4 在文章中添加tags
+
+在文章xx.md中添加：
+
+```
+tags: 
+	- Tag1
+	- Tag2
+	- Tag3
+```
+
+多个Tag可按上面的格式添加。
+
+其文件头部类似：
+
+```
+title: TagEditText
+date: 2016-11-19 10:44:25
+tags: 
+	- Tag1
+	- Tag2
+	- Tag3
+```
+
+
+
 ## 9 分类，给文章归档
 
 ## 10 添加评论功能
