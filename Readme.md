@@ -238,6 +238,59 @@ tags:
 
 ## 9 分类，给文章归档
 
+### 9.1 两个确认
+
+* 确认站点配置文件打开了
+```
+category_dir: categories
+```
+* 确认主题配置文件打开了
+```
+categories: /categories
+```
+
+### 9.2 新建categories文件
+
+```
+$ hexo new page categories
+```
+
+此时会在source目录下生成categories/index.md文件
+
+### 9.3 修改categories/index.md
+
+```
+title: categories
+date: 2015-10-20 06:49:50
+type: "categories"
+comments: false
+```
+
+> date 可保持系统生成的时间，
+```
+type: "categories"
+comments: false
+```
+很重要
+
+### 9.4 在文章中添加categories
+
+在文章xx.md中添加：
+
+```
+categories: 
+	- cate
+```
+
+其文件头部类似：
+
+```
+title: TagEditText
+date: 2016-11-19 10:44:25
+categories: 
+	- cate
+```
+
 ## 10 添加评论功能
 
 ## 11 加介绍页面，让全世界认识你
