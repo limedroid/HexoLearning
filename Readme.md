@@ -1,6 +1,6 @@
 # Hexo 博客搭建指南
 
-Hexo的简洁、神秘让我跃跃欲试，在使用过程中遇到了很多问题，整理此文，一是方便其他技术人搭建自己的博客，二是给自己的学习之旅做个总结。本文**未完结**，欢迎star、fork，如果有错误，请不吝指出。
+Hexo的简洁、神秘让我跃跃欲试，在使用过程中遇到了很多问题，整理此文，一是方便其他技术人搭建自己的博客，二是给自己的学习之旅做个总结。本文**未完结**，欢迎`star`、`fork`，如果有错误，请不吝指出。
 我搭建的博客地址：[**limedroid.github.io**](https://limedroid.github.io)
 
 <p align="center">
@@ -15,7 +15,7 @@ Hexo的简洁、神秘让我跃跃欲试，在使用过程中遇到了很多问�
 
 ## 1 Hexo介绍
 
-[Hexo](https://hexo.io/zh-cn/)是基于NodeJs的静态博客框架，简单、轻量，其生成的静态网页可以托管在Github和Heroku上。
+[Hexo](https://hexo.io/zh-cn/)是基于`NodeJs`的静态博客框架，简单、轻量，其生成的静态网页可以托管在`Github`和`Heroku`上。
 
 * 超快速度
 * 支持MarkDown
@@ -48,7 +48,7 @@ $ sudo npm install hexo-cli -g
 
 ## 3 利用Hexo搭建一个博客
 
-### 3.1 创建博客目录limedroid.github.io
+### 3.1 创建博客目录`limedroid.github.io`
 
 ```
 $ hexo init limedroid.github.io
@@ -82,7 +82,7 @@ $ hexo s
 $ hexo new test
 ```
 
-此时会在source/_posts目录下生成test.md文件，输入些许内容，然后保存.
+此时会在`source/_posts`目录下生成`test.md`文件，输入些许内容，然后保存.
 
 生成下，看看效果
 
@@ -96,7 +96,7 @@ $ hexo s
 
 ### 4.2 直接方式
 
-在 **source/_posts/**下新建一个.md文件也可
+在 **source/_posts/**下新建一个`.md`文件也可
 
 ## 5 配置
 
@@ -140,7 +140,7 @@ theme: next
 
 ### 6.3 主题其他配置
 
-可在/theme/{theme}/_config.yml 主题的配置文件下进行主题的配置。
+可在`/theme/{theme}/_config.yml` 主题的配置文件下进行主题的配置。
 
 接下来，可以执行万能的调试命令看看效果
 
@@ -164,7 +164,7 @@ $ npm install hexo-deployer-git --save
 ```
 
 ### 7.4 网站配置git
-在网站的_config.yml中配置deploy
+在网站的`_config.yml`中配置deploy
 
 ```
 deploy:
@@ -173,8 +173,8 @@ deploy:
   branch: [branch]
 ```
 
-> branch为分支，默认为master,可以不配置
-> repo为仓库地址，在github上新建仓库后，可复制此地址
+> `branch`为分支，默认为`master`,可以不配置
+> `repo`为仓库地址，在github上新建仓库后，可复制此地址
 
 ### 7.5 部署
 
@@ -203,7 +203,7 @@ tags: tags
 ```
 $ hexo new page tags
 ```
-此时会在source/下生成tags/index.md文件
+此时会在`source/`下生成`tags/index.md`文件
 
 ### 8.3 修改source/tags/index.md
 
@@ -223,7 +223,7 @@ comments: false
 
 ### 8.4 在文章中添加tags
 
-在文章xx.md中添加：
+在文章`xx.md`中添加：
 
 ```
 tags: 
@@ -266,7 +266,7 @@ categories: /categories
 $ hexo new page categories
 ```
 
-此时会在source目录下生成categories/index.md文件
+此时会在`source`目录下生成`categories/index.md`文件
 
 ### 9.3 修改categories/index.md
 
