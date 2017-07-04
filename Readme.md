@@ -124,7 +124,6 @@ Hexo 中有很多主题，可以在[官网](https://hexo.io/themes/)查看。
 ### 6.1 下载主题资源
 
 ```
-$ cd theme/
 $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 ```
 
